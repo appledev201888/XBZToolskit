@@ -1,0 +1,6 @@
+framework module XBZToolKits {
+  umbrella header "XBZToolKits.h"
+
+  export *
+  module * { export * }
+}
