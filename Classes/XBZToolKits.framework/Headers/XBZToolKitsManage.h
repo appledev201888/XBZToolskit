@@ -6,11 +6,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface XBZToolKitsManage : NSObject
 
-+ (XBZToolKitsManage *)sharedManager;
-
-- (void)XBZToolKitsbegin:(UIView *)view;
-
-- (void)XBZToolKitsend:(UIView *)view;
++ (void)XBZToolKitsManage:(void(^)(NSString *temp))block;
 
 @end
 
